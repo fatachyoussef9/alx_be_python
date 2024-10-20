@@ -8,7 +8,7 @@ CREATE TABLE Authors (
 );
 
 CREATE TABLE Books (
-    book_id INT AUTO_INCREMENT PRIMARY KEY,
+    book_id INT AUTO_INCREMENT PRIMARY KEY, 
     title VARCHAR(130) NOT NULL,
     author_id INT,
     price DOUBLE NOT NULL,
